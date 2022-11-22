@@ -5,7 +5,7 @@ public class Juego {
     public static void igualNoIgual(){
         Scanner guardar= new Scanner(System.in);
 
-        int numeroAleatorio=(int)(Math.random()*(1+5));
+        int numeroAleatorio=(int)(Math.random()*(5-1)+1);
         int numeroUsuario=0;
         boolean salir=false;
 

@@ -8,7 +8,7 @@ public class Ejercicio6 {
     }
 
     public static int numeroAleatorio(){
-        final int numeroAleatorio= (int)(Math.random()*(1+100));
+        final int numeroAleatorio= (int)(Math.random()*(100-1)+1);
         return numeroAleatorio;
 
     }

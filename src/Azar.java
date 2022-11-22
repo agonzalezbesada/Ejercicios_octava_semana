@@ -19,7 +19,7 @@ public class Azar {
         return maximo;
     }
     public static int devolverEntero(int minimo, int maximo){
-        int entero = (int)(Math.random()*(minimo+maximo));
+        int entero = (int)(Math.random()*(maximo-minimo)+minimo);
         return entero;
     }
 }

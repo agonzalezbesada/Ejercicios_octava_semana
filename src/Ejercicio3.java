@@ -22,7 +22,7 @@ public class Ejercicio3 {
 
         int[]numeros=new int[tamano];
         for(int i=0;i<tamano;i++){
-            numeros[i]= (int) (Math.random() * (1 + 100));
+            numeros[i]= (int) (Math.random() * (100-1)+1);
             System.out.println(numeros[i]);
         }
     }
