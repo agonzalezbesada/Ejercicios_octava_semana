@@ -17,3 +17,6 @@
 
 
 [Ejercicio 6](src/Ejercicio6.java)
+
+
+[JavaDoc Ejercicio 6](https://agonzalezbesada.github.io/Ejercicios_octava_semana/JavaDoc/index.html)
